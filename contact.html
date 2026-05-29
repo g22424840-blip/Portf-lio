@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+<meta charset="UTF-8">
+
+<meta name="viewport"
+content="width=device-width, initial-scale=1.0">
+
+<title>
+Danonin — Contact
+</title>
+
+<link rel="preconnect"
+href="https://fonts.googleapis.com">
+
+<link rel="preconnect"
+href="https://fonts.gstatic.com"
+crossorigin>
+
+<link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;500;600;700;800&family=DM+Mono:wght@300;400;500&display=swap"
+rel="stylesheet">
+
+<style>
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+}
+
+body{
+background:black;
+color:white;
+font-family:'Syne',sans-serif;
+min-height:100vh;
+display:flex;
+justify-content:center;
+align-items:center;
+overflow:hidden;
+}
+
+.background-glow{
+position:absolute;
+width:700px;
+height:700px;
+background:radial-gradient(circle,
+rgba(255,255,255,0.06) 0%,
+transparent 70%);
+filter:blur(20px);
+}
+
+.contact-box{
+position:relative;
+z-index:2;
+width:90%;
+max-width:700px;
+padding:60px;
+border:1px solid rgba(255,255,255,0.08);
+background:rgba(255,255,255,0.03);
+backdrop-filter:blur(20px);
+border-radius:30px;
+text-align:center;
+}
+
+.contact-tag{
+font-family:'DM Mono',monospace;
+font-size:0.7rem;
+letter-spacing:0.25em;
+text-transform:uppercase;
+color:rgba(255,255,255,0.35);
+margin-bottom:20px;
+}
+
+h1{
+font-size:4rem;
+line-height:0.9;
+margin-bottom:20px;
+}
+
+h1 span{
+font-style:italic;
+font-weight:400;
+opacity:0.6;
+}
+
+.description{
+font-family:'DM Mono',monospace;
+font-size:0.9rem;
+line-height:1.8;
+color:rgba(255,255,255,0.5);
+margin-bottom:50px;
+}
+
+.contact-grid{
+display:flex;
+flex-direction:column;
+gap:20px;
+}
+
+.contact-card{
+padding:25px;
+border-radius:20px;
+border:1px solid rgba(255,255,255,0.08);
+background:rgba(255,255,255,0.02);
+transition:0.4s ease;
+text-decoration:none;
+color:white;
+}
+
+.contact-card:hover{
+transform:translateY(-5px);
+background:rgba(255,255,255,0.05);
+border-color:rgba(255,255,255,0.2);
+}
+
+.contact-label{
+font-family:'DM Mono',monospace;
+font-size:0.7rem;
+letter-spacing:0.2em;
+text-transform:uppercase;
+color:rgba(255,255,255,0.35);
+margin-bottom:10px;
+}
+
+.contact-value{
+font-size:1.2rem;
+font-weight:700;
+}
+
+.back-btn{
+display:inline-block;
+margin-top:40px;
+padding:14px 28px;
+border-radius:999px;
+border:1px solid rgba(255,255,255,0.15);
+text-decoration:none;
+color:white;
+font-size:0.8rem;
+letter-spacing:0.1em;
+text-transform:uppercase;
+transition:0.4s ease;
+}
+
+.back-btn:hover{
+background:white;
+color:black;
+}
+
+@media(max-width:768px){
+
+.contact-box{
+padding:40px 25px;
+}
+
+h1{
+font-size:2.8rem;
+}
+
+}
+
+</style>
+
+</head>
+
+<body>
+
+<div class="background-glow"></div>
+
+<div class="contact-box">
+
+<div class="contact-tag">
+Contact Section
+</div>
+
+<h1>
+Let's
+<br>
+<span>Connect</span>
+</h1>
+
+<p class="description">
+
+Frontend interfaces,
+backend learning and
+full stack systems.
+
+<br><br>
+
+Reach out through Discord
+or email.
+
+</p>
+
+<div class="contact-grid">
+
+<a href="mailto:silvayurizin5@gmail.com"
+class="contact-card">
+
+<div class="contact-label">
+Email
+</div>
+
+<div class="contact-value">
+silvayurizin5@gmail.com
+</div>
+
+</a>
+
+<a href="https://discord.com/"
+target="_blank"
+class="contact-card">
+
+<div class="contact-label">
+Discord
+</div>
+
+<div class="contact-value">
+Danonin
+</div>
+
+</a>
+
+</div>
+
+<a href="index.html"
+class="back-btn">
+
+Back To Portfolio
+
+</a>
+
+</div>
+
+</body>
+  </html>
