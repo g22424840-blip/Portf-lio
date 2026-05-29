@@ -794,3 +794,41 @@ footer {
 @media (max-width: 480px) {
   .nav-links { display: none; }
 }
+/* ── HERO SOCIALS ── */
+
+.hero-socials{
+display:flex;
+justify-content:center;
+gap:14px;
+margin-top:28px;
+flex-wrap:wrap;
+}
+
+.social-btn{
+display:flex;
+align-items:center;
+gap:10px;
+padding:14px 24px;
+border-radius:999px;
+background:rgba(255,255,255,0.04);
+border:1px solid rgba(255,255,255,0.08);
+text-decoration:none;
+color:white;
+font-family:'DM Mono',monospace;
+font-size:0.75rem;
+letter-spacing:0.08em;
+text-transform:uppercase;
+transition:0.4s ease;
+backdrop-filter:blur(10px);
+}
+
+.social-btn:hover{
+transform:translateY(-4px);
+background:rgba(255,255,255,0.08);
+border-color:rgba(255,255,255,0.18);
+box-shadow:0 0 30px rgba(255,255,255,0.08);
+}
+
+.social-btn svg{
+opacity:0.8;
+  }
