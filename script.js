@@ -51,3 +51,26 @@ document.addEventListener('mousemove', e => {
     glow.style.transform = `translate(calc(-50% + ${x}px), calc(-50% + ${y}px))`;
   }
 });
+
+/* ── Accordion ── */
+const accItems = document.querySelectorAll('.acc-item');
+
+accItems.forEach(item => {
+  const trigger = item.querySelector('.acc-trigger');
+
+  trigger.addEventListener('click', () => {
+    const isOpen = item.classList.contains('is-open');
+
+    // Close all
+    accItems.forEach(i => {
+      i.classList.remove('is-open');
+      i.querySelector('.acc-trigger').setAttribute('aria-expanded', 'false');
+    });
+
+    // Open clicked if it was closed
+    if (!isOpen) {
+      item.classList.add('is-open');
+      trigger.setAttribute('aria-expanded', 'true');
+    }
+  });
+});

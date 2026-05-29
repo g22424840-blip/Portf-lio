@@ -3,392 +3,408 @@
 <head>
 
 <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Danonin — Junior Full Stack Developer</title>
 
-<meta name="viewport"
-content="width=device-width, initial-scale=1.0">
-
-<title>
-Danonin — Junior Full Stack Developer
-</title>
-
-<link rel="preconnect"
-href="https://fonts.googleapis.com">
-
-<link rel="preconnect"
-href="https://fonts.gstatic.com"
-crossorigin>
-
-<link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;500;600;700;800&family=DM+Mono:ital,wght@0,300;0,400;0,500;1,300&family=Instrument+Serif:ital@0;1&display=swap"
-rel="stylesheet">
-
-<link rel="stylesheet"
-href="style.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;500;600;700;800&family=DM+Mono:ital,wght@0,300;0,400;0,500;1,300&family=Instrument+Serif:ital@0;1&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
 
 </head>
-
 <body>
 
 <!-- Custom Cursor -->
-
 <div class="cursor" id="cursor"></div>
-
-<div class="cursor-ring"
-id="cursor-ring"></div>
+<div class="cursor-ring" id="cursor-ring"></div>
 
 <!-- ── NAVBAR ── -->
-
 <nav>
-
-<a href="#"
-class="nav-logo">
-
-Danonin
-
-</a>
-
-<ul class="nav-links">
-
-<li>
-<a href="#about">About</a>
-</li>
-
-<li>
-<a href="#skills">Skills</a>
-</li>
-
-<li>
-<a href="#collab">Collab</a>
-</li>
-
-<li>
-<a href="#contact">Contact</a>
-</li>
-
-</ul>
-
+  <a href="#" class="nav-logo">Danonin</a>
+  <ul class="nav-links">
+    <li><a href="#about">About</a></li>
+    <li><a href="#skills">Skills</a></li>
+    <li><a href="#inventory">Stack</a></li>
+    <li><a href="#collab">Collab</a></li>
+    <li><a href="#contact">Contact</a></li>
+  </ul>
 </nav>
 
 <!-- ── HERO ── -->
-
 <section class="hero" id="hero">
+  <div class="hero-grid"></div>
+  <div class="hero-glow-center"></div>
+  <div class="hero-glow-tl"></div>
+  <div class="hero-glow-br"></div>
 
-<div class="hero-grid"></div>
+  <div class="hero-content">
 
-<div class="hero-glow-center"></div>
+    <div class="hero-terminal reveal visible">
+      &gt; Junior full stack systems in progress
+    </div>
 
-<div class="hero-glow-tl"></div>
+    <h1 class="hero-title reveal visible" style="transition-delay:0.1s">
+      Junior Full Stack
+      <span>Developer</span>
+    </h1>
 
-<div class="hero-glow-br"></div>
+    <p class="hero-subtitle reveal visible" style="transition-delay:0.2s">
+      Frontend architecture,
+      backend logic and modern
+      full stack learning.
+    </p>
 
-<div class="hero-content">
+    <div class="hero-btns reveal visible" style="transition-delay:0.3s">
+      <a href="#contact" class="btn-primary">Contact</a>
+      <a href="https://portfolio-kappa-five-j2bziua5ik.vercel.app/" target="_blank" class="btn-ghost reveal reveal-delay-3">
+        Visit CX portfolio ↗
+      </a>
+    </div>
 
-<div class="hero-terminal reveal visible">
+    <!-- ── HERO SOCIALS ── -->
+    <div class="hero-socials reveal visible" style="transition-delay:0.4s">
 
-&gt; Junior full stack systems in progress
+      <a href="https://www.tiktok.com/@danonenichosversion" target="_blank" class="social-btn">
+        <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="currentColor" viewBox="0 0 16 16">
+          <path d="M9.5 1a4.5 4.5 0 0 0 4.5 4.5V8a7.5 7.5 0 0 1-4.5-1.5v4.25A4.25 4.25 0 1 1 5.25 6.5h.25v2.25h-.25a2 2 0 1 0 2 2V1h2z"/>
+        </svg>
+        <span>TikTok</span>
+      </a>
 
-</div>
+      <a href="#contact" class="social-btn">
+        <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="currentColor" viewBox="0 0 16 16">
+          <path d="M13.545 2.907a13.227 13.227 0 0 0-3.257-1.01.05.05 0 0 0-.052.025c-.141.249-.297.574-.407.833a12.19 12.19 0 0 0-3.658 0 8.404 8.404 0 0 0-.412-.833.051.051 0 0 0-.052-.025 13.236 13.236 0 0 0-3.257 1.01.041.041 0 0 0-.018.017C.533 5.556-.32 8.146.099 10.704a.06.06 0 0 0 .022.037 13.312 13.312 0 0 0 3.994 2.018.05.05 0 0 0 .056-.019c.308-.42.582-.863.818-1.325a.05.05 0 0 0-.027-.07 8.623 8.623 0 0 1-1.248-.594.05.05 0 0 1-.005-.084c.084-.062.168-.127.248-.192a.05.05 0 0 1 .052-.007c2.619 1.195 5.454 1.195 8.042 0a.05.05 0 0 1 .053.006c.08.066.164.131.248.193a.05.05 0 0 1-.004.084 8.282 8.282 0 0 1-1.249.593.05.05 0 0 0-.026.071c.24.461.514.904.817 1.324a.05.05 0 0 0 .056.02 13.286 13.286 0 0 0 4.001-2.018.05.05 0 0 0 .021-.037c.5-2.966-.838-5.532-2.354-7.78a.041.041 0 0 0-.018-.017z"/>
+        </svg>
+        <span>Discord</span>
+      </a>
 
-<h1 class="hero-title reveal visible"
-style="transition-delay:0.1s">
+    </div>
 
-Junior Full Stack
+  </div>
 
-<span>
-Developer
-</span>
-
-</h1>
-
-<p class="hero-subtitle reveal visible"
-style="transition-delay:0.2s">
-
-Frontend architecture,
-backend logic and modern
-full stack learning.
-
-</p>
-
-<div class="hero-btns reveal visible"
-style="transition-delay:0.3s">
-
-<a href="#contact"
-class="btn-primary">
-
-Contact
-
-</a>
-
-<a href="https://portfolio-kappa-five-j2bziua5ik.vercel.app/"
-target="_blank"
-class="btn-ghost reveal reveal-delay-3">
-
-Visit CX portfolio ↗
-
-</a>
-
-</div>
-  
-<!-- ── HERO SOCIALS ── -->
-
-<div class="hero-socials reveal visible"
-style="transition-delay:0.4s">
-
-<a href="https://www.tiktok.com/@danonenichosversion"
-target="_blank"
-class="social-btn">
-
-<svg xmlns="http://www.w3.org/2000/svg"
-width="18"
-height="18"
-fill="currentColor"
-viewBox="0 0 16 16">
-
-<path d="M9.5 1a4.5 4.5 0 0 0 4.5 4.5V8a7.5 7.5 0 0 1-4.5-1.5v4.25A4.25 4.25 0 1 1 5.25 6.5h.25v2.25h-.25a2 2 0 1 0 2 2V1h2z"/>
-
-</svg>
-
-<span>TikTok</span>
-
-</a>
-
-<a href="#contact"
-class="social-btn">
-
-<svg xmlns="http://www.w3.org/2000/svg"
-width="18"
-height="18"
-fill="currentColor"
-viewBox="0 0 16 16">
-
-<path d="M13.545 2.907a13.227 13.227 0 0 0-3.257-1.01.05.05 0 0 0-.052.025c-.141.249-.297.574-.407.833a12.19 12.19 0 0 0-3.658 0 8.404 8.404 0 0 0-.412-.833.051.051 0 0 0-.052-.025 13.236 13.236 0 0 0-3.257 1.01.041.041 0 0 0-.018.017C.533 5.556-.32 8.146.099 10.704a.06.06 0 0 0 .022.037 13.312 13.312 0 0 0 3.994 2.018.05.05 0 0 0 .056-.019c.308-.42.582-.863.818-1.325a.05.05 0 0 0-.027-.07 8.623 8.623 0 0 1-1.248-.594.05.05 0 0 1-.005-.084c.084-.062.168-.127.248-.192a.05.05 0 0 1 .052-.007c2.619 1.195 5.454 1.195 8.042 0a.05.05 0 0 1 .053.006c.08.066.164.131.248.193a.05.05 0 0 1-.004.084 8.282 8.282 0 0 1-1.249.593.05.05 0 0 0-.026.071c.24.461.514.904.817 1.324a.05.05 0 0 0 .056.02 13.286 13.286 0 0 0 4.001-2.018.05.05 0 0 0 .021-.037c.5-2.966-.838-5.532-2.354-7.78a.041.041 0 0 0-.018-.017z"/>
-
-</svg>
-
-<span>Discord</span>
-
-</a>
-
-</div>
-
-</div>
-
-<div class="scroll-hint">
-
-<div class="scroll-line"></div>
-
-<span>
-Scroll
-</span>
-
-</div>
+  <div class="scroll-hint">
+    <div class="scroll-line"></div>
+    <span>Scroll</span>
+  </div>
 
 </section>
 
 <!-- ── MARQUEE ── -->
-
 <div class="marquee-strip">
-
-<div class="marquee-inner">
-
-<span><b>HTML</b></span>
-<span>—</span>
-
-<span><b>CSS</b></span>
-<span>—</span>
-
-<span><b>JavaScript</b></span>
-<span>—</span>
-
-<span>Full Stack Journey</span>
-<span>—</span>
-
-<span><b>Frontend Architecture</b></span>
-<span>—</span>
-
-<span>Modern UI Systems</span>
-<span>—</span>
-
-<span><b>Danonin</b></span>
-<span>—</span>
-
-</div>
-
+  <div class="marquee-inner">
+    <span><b>HTML</b></span><span>—</span>
+    <span><b>CSS</b></span><span>—</span>
+    <span><b>JavaScript</b></span><span>—</span>
+    <span><b>Node.js</b></span><span>—</span>
+    <span><b>Express</b></span><span>—</span>
+    <span>REST APIs</span><span>—</span>
+    <span><b>MongoDB</b></span><span>—</span>
+    <span><b>PostgreSQL</b></span><span>—</span>
+    <span>Authentication</span><span>—</span>
+    <span>Database Design</span><span>—</span>
+    <span><b>Full Stack Systems</b></span><span>—</span>
+    <span><b>Danonin</b></span><span>—</span>
+    <!-- duplicate for seamless loop -->
+    <span><b>HTML</b></span><span>—</span>
+    <span><b>CSS</b></span><span>—</span>
+    <span><b>JavaScript</b></span><span>—</span>
+    <span><b>Node.js</b></span><span>—</span>
+    <span><b>Express</b></span><span>—</span>
+    <span>REST APIs</span><span>—</span>
+    <span><b>MongoDB</b></span><span>—</span>
+    <span><b>PostgreSQL</b></span><span>—</span>
+    <span>Authentication</span><span>—</span>
+    <span>Database Design</span><span>—</span>
+    <span><b>Full Stack Systems</b></span><span>—</span>
+    <span><b>Danonin</b></span><span>—</span>
+  </div>
 </div>
 
 <!-- ── STATS ── -->
-
 <section class="stats" id="stats">
+  <div class="stats-inner">
 
-<div class="stats-inner">
+    <div class="stat-card reveal">
+      <div class="stat-icon">◈</div>
+      <div class="stat-num">3+</div>
+      <div class="stat-label">Core Technologies</div>
+    </div>
 
-<div class="stat-card reveal">
+    <div class="stat-card reveal reveal-delay-1">
+      <div class="stat-icon">⬡</div>
+      <div class="stat-num">∞</div>
+      <div class="stat-label">Full Stack Learning Journey</div>
+    </div>
 
-<div class="stat-icon">
-◈
-</div>
+    <div class="stat-card reveal reveal-delay-2">
+      <div class="stat-icon">◻</div>
+      <div class="stat-num">2</div>
+      <div class="stat-label">Developers in the Studio</div>
+    </div>
 
-<div class="stat-num">
-3+
-</div>
-
-<div class="stat-label">
-Core Technologies
-</div>
-
-</div>
-
-<div class="stat-card reveal reveal-delay-1">
-
-<div class="stat-icon">
-⬡
-</div>
-
-<div class="stat-num">
-∞
-</div>
-
-<div class="stat-label">
-Full Stack Learning Journey
-</div>
-
-</div>
-
-<div class="stat-card reveal reveal-delay-2">
-
-<div class="stat-icon">
-◻
-</div>
-
-<div class="stat-num">
-2
-</div>
-
-<div class="stat-label">
-Developers in the Studio
-</div>
-
-</div>
-
-</div>
-
+  </div>
 </section>
 
 <!-- ── ABOUT ── -->
-
 <section class="about" id="about">
+  <div class="about-inner">
 
-<div class="about-inner">
+    <div class="section-tag reveal">01 — Profile</div>
 
-<div class="section-tag reveal">
-01 — Profile
-</div>
+    <h2 class="reveal reveal-delay-1">
+      About
+      <br>
+      <em style="font-family:'Instrument Serif',serif;font-style:italic;font-weight:400;color:rgba(255,255,255,0.45)">Me</em>
+    </h2>
 
-<h2 class="reveal reveal-delay-1">
+    <div class="about-divider reveal reveal-delay-2"></div>
 
-About
+    <p class="reveal reveal-delay-3">
+      Junior Full Stack Developer focused on building complete web applications.
+      <br><br>
+      From frontend interfaces and user experiences to backend logic, APIs and database integration,
+      I continuously develop modern applications with a full stack mindset.
+    </p>
 
-<br>
+  </div>
+</section>
 
-<em style="font-family:'Instrument Serif',serif;font-style:italic;font-weight:400;color:rgba(255,255,255,0.45)">
+<!-- ── SKILLS ── -->
+<section class="skills" id="skills">
+  <div class="skills-inner">
+    <div class="skills-header">
+      <div class="section-tag reveal">02 — Stack</div>
+      <h2 class="reveal reveal-delay-1">Technical<br>Skills</h2>
+    </div>
+    <div class="skills-grid">
 
-Me
+      <div class="skill-card reveal" style="transition-delay:.05s">
+        <div class="skill-glyph">Structure</div>
+        <div class="skill-name">HTML</div>
+        <div class="skill-desc">Semantic markup, accessibility patterns and document architecture.</div>
+        <div class="skill-bar"><div class="skill-bar-fill" style="--fill:88%"></div></div>
+      </div>
 
-</em>
+      <div class="skill-card reveal" style="transition-delay:.1s">
+        <div class="skill-glyph">Presentation</div>
+        <div class="skill-name">CSS</div>
+        <div class="skill-desc">Modern layouts, animations, glassmorphism and responsive systems.</div>
+        <div class="skill-bar"><div class="skill-bar-fill" style="--fill:80%"></div></div>
+      </div>
 
-</h2>
+      <div class="skill-card reveal" style="transition-delay:.15s">
+        <div class="skill-glyph">Logic</div>
+        <div class="skill-name">JS</div>
+        <div class="skill-desc">DOM manipulation, async patterns and interactive UI components.</div>
+        <div class="skill-bar"><div class="skill-bar-fill" style="--fill:72%"></div></div>
+      </div>
 
-<div class="about-divider reveal reveal-delay-2"></div>
+    </div>
+  </div>
+</section>
 
-<p class="reveal reveal-delay-3">
+<!-- ── TECH INVENTORY ── -->
+<section class="inventory" id="inventory">
+  <div class="inventory-inner">
 
-Full stack developer focused on
-creating modern interfaces,
-backend systems and scalable
-web applications.
+    <div class="section-tag reveal">03 — Full Stack</div>
+    <h2 class="inventory-title reveal reveal-delay-1">Tech<br><em style="font-family:'Instrument Serif',serif;font-style:italic;font-weight:400;color:rgba(255,255,255,0.45)">Inventory</em></h2>
+    <p class="inventory-sub reveal reveal-delay-2">Complete technology stack across the full development lifecycle.</p>
 
-<br>
+    <div class="accordion reveal reveal-delay-3" id="accordion">
 
-Combining frontend design,
-interactive experiences and
-server-side architecture
-to build complete solutions.
-  
-</p>
+      <!-- 1 -->
+      <div class="acc-item" data-index="0">
+        <button class="acc-trigger" aria-expanded="false">
+          <div class="acc-trigger-left">
+            <span class="acc-num">01</span>
+            <span class="acc-title">Frontend Development</span>
+          </div>
+          <div class="acc-trigger-right">
+            <span class="acc-tags-preview">HTML5 · CSS3 · JavaScript</span>
+            <span class="acc-icon">+</span>
+          </div>
+        </button>
+        <div class="acc-body">
+          <div class="acc-body-inner">
+            <p class="acc-desc">Building responsive interfaces, modern user experiences and scalable component systems.</p>
+            <div class="acc-tech-grid">
+              <span class="acc-tech">HTML5</span>
+              <span class="acc-tech">CSS3</span>
+              <span class="acc-tech">JavaScript</span>
+              <span class="acc-tech">Responsive Design</span>
+              <span class="acc-tech">UI Architecture</span>
+              <span class="acc-tech">Interactive Systems</span>
+            </div>
+          </div>
+        </div>
+      </div>
 
-</div>
+      <!-- 2 -->
+      <div class="acc-item" data-index="1">
+        <button class="acc-trigger" aria-expanded="false">
+          <div class="acc-trigger-left">
+            <span class="acc-num">02</span>
+            <span class="acc-title">Backend Development</span>
+          </div>
+          <div class="acc-trigger-right">
+            <span class="acc-tags-preview">Node.js · Express · REST APIs</span>
+            <span class="acc-icon">+</span>
+          </div>
+        </button>
+        <div class="acc-body">
+          <div class="acc-body-inner">
+            <p class="acc-desc">Server-side development, application logic and scalable backend systems.</p>
+            <div class="acc-tech-grid">
+              <span class="acc-tech">Node.js</span>
+              <span class="acc-tech">Express.js</span>
+              <span class="acc-tech">REST APIs</span>
+              <span class="acc-tech">Authentication Systems</span>
+              <span class="acc-tech">Server Logic</span>
+            </div>
+          </div>
+        </div>
+      </div>
 
+      <!-- 3 -->
+      <div class="acc-item" data-index="2">
+        <button class="acc-trigger" aria-expanded="false">
+          <div class="acc-trigger-left">
+            <span class="acc-num">03</span>
+            <span class="acc-title">Database Systems</span>
+          </div>
+          <div class="acc-trigger-right">
+            <span class="acc-tags-preview">MongoDB · PostgreSQL · MySQL</span>
+            <span class="acc-icon">+</span>
+          </div>
+        </button>
+        <div class="acc-body">
+          <div class="acc-body-inner">
+            <p class="acc-desc">Data storage, modeling and information management.</p>
+            <div class="acc-tech-grid">
+              <span class="acc-tech">MongoDB</span>
+              <span class="acc-tech">PostgreSQL</span>
+              <span class="acc-tech">MySQL</span>
+              <span class="acc-tech">Database Design</span>
+              <span class="acc-tech">Data Modeling</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- 4 -->
+      <div class="acc-item" data-index="3">
+        <button class="acc-trigger" aria-expanded="false">
+          <div class="acc-trigger-left">
+            <span class="acc-num">04</span>
+            <span class="acc-title">API Integration</span>
+          </div>
+          <div class="acc-trigger-right">
+            <span class="acc-tags-preview">REST · JSON · Fetch API</span>
+            <span class="acc-icon">+</span>
+          </div>
+        </button>
+        <div class="acc-body">
+          <div class="acc-body-inner">
+            <p class="acc-desc">Connecting frontend applications with backend services and external platforms.</p>
+            <div class="acc-tech-grid">
+              <span class="acc-tech">REST APIs</span>
+              <span class="acc-tech">JSON</span>
+              <span class="acc-tech">Fetch API</span>
+              <span class="acc-tech">Third-Party Services</span>
+              <span class="acc-tech">Endpoint Communication</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- 5 -->
+      <div class="acc-item" data-index="4">
+        <button class="acc-trigger" aria-expanded="false">
+          <div class="acc-trigger-left">
+            <span class="acc-num">05</span>
+            <span class="acc-title">DevOps &amp; Tools</span>
+          </div>
+          <div class="acc-trigger-right">
+            <span class="acc-tags-preview">Git · GitHub · Vercel</span>
+            <span class="acc-icon">+</span>
+          </div>
+        </button>
+        <div class="acc-body">
+          <div class="acc-body-inner">
+            <p class="acc-desc">Development workflow, deployment and project management.</p>
+            <div class="acc-tech-grid">
+              <span class="acc-tech">Git</span>
+              <span class="acc-tech">GitHub</span>
+              <span class="acc-tech">Linux</span>
+              <span class="acc-tech">Terminal</span>
+              <span class="acc-tech">Vercel</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- 6 -->
+      <div class="acc-item" data-index="5">
+        <button class="acc-trigger" aria-expanded="false">
+          <div class="acc-trigger-left">
+            <span class="acc-num">06</span>
+            <span class="acc-title">Full Stack Architecture</span>
+          </div>
+          <div class="acc-trigger-right">
+            <span class="acc-tags-preview">MVC · Data Flow · End-to-End</span>
+            <span class="acc-icon">+</span>
+          </div>
+        </button>
+        <div class="acc-body">
+          <div class="acc-body-inner">
+            <p class="acc-desc">Combining frontend, backend and databases into complete applications.</p>
+            <div class="acc-tech-grid">
+              <span class="acc-tech">MVC Architecture</span>
+              <span class="acc-tech">Application Structure</span>
+              <span class="acc-tech">Scalable Systems</span>
+              <span class="acc-tech">Data Flow</span>
+              <span class="acc-tech">End-to-End Development</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
 </section>
 
 <!-- ── CONTACT ── -->
-
 <section class="contact" id="contact">
+  <div class="contact-glow"></div>
+  <div class="contact-inner">
 
-<div class="contact-glow"></div>
+    <div class="section-tag reveal" style="justify-content:center">04 — Connect</div>
 
-<div class="contact-inner">
+    <h2 class="reveal reveal-delay-1">
+      Let's
+      <br>
+      <em>Work</em>
+    </h2>
 
-<div class="section-tag reveal"
-style="justify-content:center">
+    <p class="reveal reveal-delay-2">
+      Open to projects, collaborations and conversations.
+      <br>
+      Reach out and let's build something great.
+    </p>
 
-04 — Connect
+    <a href="contact.html" class="btn-primary reveal reveal-delay-3">
+      Send a Message
+    </a>
 
-</div>
-
-<h2 class="reveal reveal-delay-1">
-
-Let's
-
-<br>
-
-<em>
-Work
-</em>
-
-</h2>
-
-<p class="reveal reveal-delay-2">
-
-Open to projects,
-collaborations and conversations.
-
-<br>
-
-Reach out and let's build
-something great.
-
-</p>
-
-<a href="contact.html"
-class="btn-primary reveal reveal-delay-3">
-
-Send a Message
-
-</a>
-
-</div>
-
+  </div>
 </section>
 
 <!-- ── FOOTER ── -->
-
 <footer>
-
-<div class="footer-brand">
-Danonin
-</div>
-
-<div class="footer-center">
-
-Built by Danonin &amp; CX
-
-</div>
-
-<div class="footer-mono">
-
-© 2025
-
-</div>
-
+  <div class="footer-brand">Danonin</div>
+  <div class="footer-center">Built by Danonin &amp; CX</div>
+  <div class="footer-mono">© 2025</div>
 </footer>
 
 <script src="script.js"></script>
